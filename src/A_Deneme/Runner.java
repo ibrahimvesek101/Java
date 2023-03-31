@@ -6,8 +6,6 @@ public class Runner {
     public static void main(String[] args) {
 
         Arac ford = new Arac();
-
-
     }
 }
 
