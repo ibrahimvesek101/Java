@@ -1,0 +1,117 @@
+STATİC KEYWORD
+Class icinde bulunan variable'lar, o class'dan create edilen her object icin ayri ayri olusturulurlar.
+Yani ad soyad ve yas gibi 3 field iceren bir class'dan create edilen her object icin farkli farkli ad, soyad ve yas variable'lari bellekte olusturulur.
+Bu yuzden bu tur variable'lere object'e ozgu olduklari icin "INSTANCE VARİABLE" denir.
+Static keyword ile create edilen variable'ler instance variable degil "CLASS VARİABLE" olarak adlandirilir.
+Bu variable'lar object'e ait degil, class'a aitbilgileri tasirlar.
+ Class variable icinde tanimlandigi class'dan hicbir object create edilmemis olsa bile bellekte yer kaplarlar.
+ Instance variable ise ancak bir object create edildiginde bellekte yer kaplarlar.  Class variable sadece bir ornegi vardir
+ yani o class'dan kac tane object create edilirse edilsin, bellekte tek bir tane class variable vardir ve ne sekilde erisirsek eriselim, ayni class variable erisiriz.
+ Static class variable hem class name, hem de object ile erisilebilir.
+
+ * Class create edildiginde ilk once bellekte static variable'lar create edilir.
+ * Static variable'lar sadece bir yerde calisir ve sadece bir kere calisir.
+ *Static variable'lar herhangi bir class yapisina bagli degildir.Bellekte tek bir yerde tutulur.
+ *Static variable'a class'daki tum objeler tarafindan erisilebilir.
+ *Static variable'lar bellekte sadece bir kere create edilir.
+ *Static variable'lara object create etmeden class name ile erisilebilir.
+
+ psvm = Public static void main(String args[])
+
+ Java'da main metodunun imzasi sabittir.  Main metodu public ve static olmak zorundadir.
+ Bu metodun public olmasi gerekmektedir. Cunku kodumuzu calistiran JVM'nin disaridan main metodunu calistirabilmesi gerekir.
+ Bu metodun ayrica static de olmasi gerekir. Cunku JVM kodumuzu calistirirken main metodunun yazili oldugu bir nesne olusturmaz.
+ Ortada nesne yokken bir metodu calistirmak icin de o metodun static olarak tanimlanmis olmasi gerekir.
+
+*** COMPARISION OPERATORS
+Karşılaştırma operatörleri ne için kullanılır?
+Değişkenlerin aldığı değerlerin karşılaştırmalarını (büyüklük,eşitlik vb.) yapmak için kullandığımız operatörlere karşılaştırma operatörleri denir.
+Karşılaştırma operatörleri bize boolean tipinde (True ya da False) veri gönderirler.
+
+**** SCOPE
+Yazılım geliştirirken değişkenlerden, objelerden, fonksiyonlardan yararlanırız ve kod içerisinde bunları belirli yerlerde çağırırız.
+ Bu değişkenlerin ya da kod içerisindeki objelerin, fonksiyonların erişilebilirlik kapsamı vardır, bu kapsama scope adı verilir.
+
+*** ENCAPSULATION
+Encapsulation (Kapsülleme), nesne yönelimli olan programlamada yer alan herhangi bir nesnenin yöntemlerini,
+değişkenlerini ve özelliklerini diğer nesnelerden saklayarak, bunlara erişimini sınırlandırır.
+Bunun sonucunda ise yanlış kullanımlardan koruyan farklı bir konsepttir.
+
+/**
+ * Encapsulation kullanılarak oluşturulan bir değişken ve kullanımı
+ **/
+public class EncapsulationDemo2 {
+  public static void main(String[] args) {
+    EncapsulationDemo ed = new EncapsulationDemo();
+    ed.setAd("clarusway");
+    System.out.println(ed.getAd());
+  }
+}
+
+class EncapsulationDemo {
+  private String ad;
+    public void setAd(String ad) {
+      this.ad = ad;
+    }
+    public String getAd() {
+      return ad;
+    }
+}
+
+*** ACCESS MODIFIER
+Bir Java öğesi (değişken, metot, sınıf, paket) tanımlanırken, o öğeye kimlerin erişebileceğini belirtme olanağı vardır.
+Bunlara Erişim Belirtkeleri (Access modifiers, access levels) denir.
+ Java terimleriyle söylersek, erişim belirtkeleri sistemin güvenliğini sağlar.4 seviyede erişim belirleyici mevcuttur.
+ En genişten en dara(kısıtlı) doğru sıralama şu şekildedir ;
+ ***public : Bulunduğu paketin ve sınıfın dışındaki başka paketler ve sınıflardan erişilebilir
+*** protected : Farklı paketlerden erişim sağlanamaz.
+*** default : Programda herhangi bir belirleyici mevcut olmadığı takdirde metodun ya da sınıfın erişim belirleyicisi default olur. Bu takıyı alan metotlar alt sınıftan ve bulunduğu paketten erişilebilir.
+*** private : Yalnızca bulunduğu sınıftan erişilebilir.
+
+*** INHERITANCE
+Inheritance (miras alma, kalıtım), bir nesnenin özelliklerinin farklı nesneler tarafından da kullanılabilmesine olanak sağlayan OOP * özelliğidir.
+Yazılan bir sınıf bir başka sınıf tarafından miras alınabilir.
+Bu işlem yapıldığı zaman temel alınan sınıfın tüm özellikleri yeni sınıfa aktarılır.
+
+
+****OOP = veri ve metotları içeren, nesneler kavramına dayalı programlama yöntemi olarak ifade edebiliriz.
+Java'da OOP yani nesneye yönelik programlamanın temel amacı programların esnekliğini, yeniden kullanılabilirliğini ve sürdürülebilirliğini sağlamaktadır.
+
+*** EXCEPTION
+Java dilinde hatalara istisna (exception) denir.
+İstisna, adından da anlaşılacağı üzere, programın çalışması sırasında meydana gelen istisnai (anormal) durumları belirtir.
+Diğer bir deyişle, çalışma zamanında meydana gelen hatalara istisna denir.
+
+***ABSTRACT
+İngilizcede Abstract olarak kullanılan bu kelimenin anlamı
+ araştırma özeti ya da bülten özeti manasına gelen bu kelime tez yada akademik çalışma yazanların,
+ yazılarını kısa bir şekilde özetledikleri ve yazılarının başına ekledikleri kısımlardır.
+Bu kısımların önemi büyüktür.
+
+****INTERFACE
+Öncelikle Interface, Türkçe anlamı “Arayüz” olan, ve diğer class lara Rehberlik görevi üstlenen bir yapımızdır.
+ Burada Rehberlik kavramına dikkat çekerim. Yani gerçekten yaptığı iş sadece diğer classlara yön göstermektir.
+  Bu yüzden Interface tanımları içerisinde kesinlikle kod bloğumuz bulunmaz.
+
+  *** ITERATOR
+  Tekrarlayıcı   (iterator) List ve Set koleksiyonları üzerinde, bütün öğeleri tarayacak biçimde tekrarlanan eylemleri gerçekleştirmek için kullanılır.
+
+*** COLLECTION
+Java'da bir koleksiyon (collection - bazen container, ambar diye adlandırılır) nesnelerden oluşan bir topluluğu bir arada tutan bir yapıdır.
+'Collections Framework' ise arayüzler ve onların kurgularından (implementations) oluşur.
+Olabilir işlevleri arayüzler tanımlar • Kılgı (implementation) ise, onarı hayata geçirir.
+
+*** MAP
+Map, Java Collections Framework 'un bir üyesidir. Map (gönderim) anahtarları değerlere eşleştiren bir nesnedir.
+Örneğin, bir ad listesinde her ada bir sıra numarası vermek bir Map (gönderim) işlemidir.
+Bu işlemde sıra numaralarının her biri bir anahtar, her ad bir değer olur.
+
+***ENUM
+Enum, enumeration(numaralandırma) olarak da adlandırılır,
+alanları sabit bir sabitler kümesinden oluşan java.lang.Enum dan türeyen özel sınıf türüdür.
+Enum'un amacı derleme zamanında(compile time) tip güvenliğini(type safety) sağlamaktır.
+
+*** LAMBDA
+Lambda expressions, Java SE 8'e dahil edilen Java'nın yeni ve önemli bir özelliğidir.
+Lambda expressions, işlevsel programlamayı kolaylaştırır ve geliştirmeyi çok basitleştirir.
+Koleksiyondan verilerin yinelenmesine, filtrelenmesine ve çıkarılmasına yardımcı olur.

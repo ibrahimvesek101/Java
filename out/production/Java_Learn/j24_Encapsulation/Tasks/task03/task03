@@ -1,0 +1,16 @@
+Task->
+     Runner ve  Employees, class cerate ediniz
+    Employees(Çalışanlar) class'ında;
+    encapsulated variable'ları oluşturunuz;
+    String name,
+    int salary,
+    String dob (date of birth) (Doğum tarihi)
+    Runner class'ın içinde;
+   obj ile
+    Name is Fernando
+    dob is 11/23/2000
+    Salary is 80000
+    Eğer employee 18 yaşında büyükse, Welcome to our company Fernando your salary is 80000. yazdırınız.
+    Eğer Fernando 18 yaşından küçükse, come back when you are 18 years old. yazdırınız.
+    Eğer Fernando 18 yaşındaysa,  we can have inter with you after that you can have a 80000 salary yazdırınız.
+trick: ageCalculator isminde bir method için  Şuanki tarih - doğum yılı = employee age

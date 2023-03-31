@@ -1,0 +1,25 @@
+Task
+     Runner ve rentApartments Class'ları create ediniz
+    rentApartments Class'ında data hiding
+    Bu variable'ları create ediniz
+    String name
+    int roomCount
+    boolean balconyOrNo
+    4 farklı Apartment(apartman dairesi) vardır. 0, 1, 2, 3 rooms(odalı)
+    -----------------------------------------------------------------
+    Bir method oluşturun;
+    Eğer room sayısı 0 ise,
+    rent(kira) 1400
+    Eğer oda sayısı 1 ise,
+    rent  1700
+    Eğer oda sayısı 2 ise,
+    rent 2200
+    Eğer oda sayısı 3 ise,
+    rent 2700
+    rent'i return'leyin.
+    ----------------------------------------------------------------
+    Bir method oluşturun.
+    Eğer balconyOrNo  true ise,
+    rent'e 200 dollar ekleyin.
+    Runner class  içinde;
+    userName rent is amountOfRent(... kiracı nın datalarını -> oda saysı, balkon isteği ,kira miktarı) print eden code create ediniz

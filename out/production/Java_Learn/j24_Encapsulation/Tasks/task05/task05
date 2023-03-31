@@ -1,0 +1,7 @@
+* task->
+    Book class'ında valuelari girilen bookName ve authorName (String ) İ
+    ki tane attributes oluşturunuz.
+    Book class'ını datahiding yapınız. (Encapsulate)
+    Main class'ın içine object  create edip print eden code create ediniz.
+
+todo  "Book name is BOOKNAME and Author is AUTHORNAME"
