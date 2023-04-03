@@ -1,6 +1,8 @@
 package Projeler.TeamWork.P03_TeamWorkProject;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class UpdateRange {
 
@@ -45,13 +47,19 @@ public class UpdateRange {
 
     public static void main(String[] args) {
 
-
+        int array[]={1,6,12,15,22,18,30,16};
+        uRange(array, 10, 20);
 
     }
 
+    public static int[] uRange(int array[], int a, int b) {
 
-    public int[] uRange(int[] arr, int min, int max) {
-    return arr;
+        for (int i = 0; i < array.length; i++) {
+            if (a<array[i]&& b>array[i]) {
+                array[i] = -1;
+            }
+        }
+
+        return array;
     }
-
 }

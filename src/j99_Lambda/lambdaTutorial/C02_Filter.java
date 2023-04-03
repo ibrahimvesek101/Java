@@ -30,7 +30,6 @@ public class C02_Filter {
         }
     }
 
-
     //task02-> "Functional Programming"--> CINCIX Programming kullanarak  listin çift elemanlarını aynı satırda aralarında bosluk ile print ediniz
 public static void printCiftElemanFunctional(List<Integer>sayiList){
         sayiList
@@ -60,6 +59,8 @@ public static void printCiftElemanFunctional(List<Integer>sayiList){
                 .forEach(C01_LambdaExpression::yazdir);
 
         //akısta filtrelenen elemanlar yazdır
+
+
 
     }
 }

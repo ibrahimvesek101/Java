@@ -44,6 +44,25 @@ public class SubtractionSquare {
     */
     public static void main(String[] args) {
 
+        System.out.println(substSquare(4, 7));
+    }
 
+    public static int substSquare(int sayi1, int sayi2) {
+
+
+        int toplam1 = 0;
+        int toplam2 = 0;
+
+        for (int i = 0; i <= sayi1; i++) {
+            toplam1 += i;
         }
+
+        for (int i = 0; i <= sayi2; i++) {
+            toplam2 += i;
+        }
+
+        return (toplam1 * toplam1) + (toplam2 * toplam2);
+
+    }
+
 }

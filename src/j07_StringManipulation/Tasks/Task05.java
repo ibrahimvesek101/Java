@@ -4,10 +4,12 @@ import java.util.Scanner;
 
 public class Task05 {
     public static void main(String[] args) {
+
              /* Task->
         Girilen ad soyad bilgilerinin ilk harflerini buyuk harf print eden code create ediniz..
         (kişi iki adı olursa -kendim iki isimli yaptım-)
          */
+
                 Scanner input = new Scanner(System.in);
                 System.out.print("Lütfen adınızı giriniz : ");
                 String adi = input.nextLine();
@@ -28,6 +30,7 @@ public class Task05 {
 
                 System.out.println((buyukHarfadi + adi.substring(1, adi.indexOf(" ")) + " " + (buyukHarfikinci + ikinciAdkalan) + " " +
                         (buyukHarfsoyadi + soyadi.substring(1))));
+
 
             }
         }
