@@ -17,7 +17,7 @@ public class C01_InstanceVariable {//Class level
                  char --> default value ' ''dir.
                  boolean --> default value false'dur.
                  String --> default value "null" dir.
-​
+
  */
     static String kurs = "clarusway";//initial edilmiş static güneş variable
     static String prLanguage;//initial edilmemiş static güneş variable

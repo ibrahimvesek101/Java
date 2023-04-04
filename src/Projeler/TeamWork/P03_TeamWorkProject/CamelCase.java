@@ -32,20 +32,18 @@ public class CamelCase {
             output: I Live In Usa
 
      */
+  static   Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
-
-        Scanner scan = new Scanner(System.in);
-
-        System.out.println("Lütfen bir cümle yazınız");
-        String cümle = scan.nextLine();
-
-        System.out.println(camelcase();
+        System.out.println(camelcase());
 
     }
 
     public static String camelcase() {
-        String x = "istanbul bu aralar pek soğuk azizim";
+
+        System.out.println("Lütfen bir cümle yazınız");
+
+        String x = scan.nextLine();
         String cap = "";
         int i = 0;
         while (i < x.length()) {
@@ -59,8 +57,7 @@ public class CamelCase {
                 cap += x.charAt(i);
                 i++;
             }
-        }
-        System.out.println(cap);
+        }return cap;
 
     }
 

@@ -29,7 +29,7 @@ public class C03_Map {
         sayiList
                 .stream()   //7, 3, 11, 4, 12, 2, 5, 17 (elemanlar akışa alındı)
                 .filter(C01_LambdaExpression::ciftMi)   //4,12,2    (çiftler filtrelendi)
-                .map(t->t*t).forEach(C01_LambdaExpression::yazdir);  // 16,144,4  (filtrelenen elemanlar karelerine update edildi. ve print eildi)
+                .map(t->t*t).forEach(C01_LambdaExpression::yazdirInt);  // 16,144,4  (filtrelenen elemanlar karelerine update edildi. ve print eildi)
 
     }
 
@@ -41,7 +41,7 @@ public class C03_Map {
                 .stream()
                 .filter(t->t%2==1)
                 .map(t->t*t*t+1)
-                .forEach(C01_LambdaExpression::yazdir);
+                .forEach(C01_LambdaExpression::yazdirInt);
     }
 // Task03-> Functional Programming ile listin cift elemanlarinin   karekoklerini
 // ayni satirda aralarina bosluk birakarak print ediniz.
@@ -52,7 +52,7 @@ public class C03_Map {
                 .stream()
                 .filter(t -> t % 2 == 0)
                 .map(t -> (int) Math.sqrt(t))
-                .forEach(C01_LambdaExpression::yazdir);
+                .forEach(C01_LambdaExpression::yazdirInt);
     }
 
 }

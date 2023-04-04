@@ -35,7 +35,7 @@ public static void printCiftElemanFunctional(List<Integer>sayiList){
         sayiList
                 .stream()
                 .filter(C01_LambdaExpression::ciftMi)
-                .forEach(C01_LambdaExpression::yazdir);     //akısta filtrelenen elemanlar yazdır
+                .forEach(C01_LambdaExpression::yazdirInt);     //akısta filtrelenen elemanlar yazdır
 }
 //task03-> "Functional Programming"--> CINCIX Programming kullanarak
 // listin 35'den kucuk çift elemanlarını aynı satırda aralarında bosluk ile print ediniz
@@ -43,7 +43,7 @@ public static void printCiftElemanFunctional(List<Integer>sayiList){
     public static void print35KucukCiftElemanFunctional(List<Integer>sayiList){
         sayiList
                 .stream()
-                .filter(C01_LambdaExpression::ciftMi).filter(t->t<35).forEach(C01_LambdaExpression::yazdir);
+                .filter(C01_LambdaExpression::ciftMi).filter(t->t<35).forEach(C01_LambdaExpression::yazdirInt);
 
         //akısta filtrelenen elemanlar yazdır
     }
@@ -56,7 +56,7 @@ public static void printCiftElemanFunctional(List<Integer>sayiList){
                 .stream()
                 .filter(t->t%2==1|| t>34)
                 .sorted()                       // bir de sıraladık..
-                .forEach(C01_LambdaExpression::yazdir);
+                .forEach(C01_LambdaExpression::yazdirInt);
 
         //akısta filtrelenen elemanlar yazdır
 

@@ -266,7 +266,7 @@ C67:
 1. Çalışma:
 Süreç (prosess): ayrı bellek alanları
 Konular, diziler (threads): paylaşılan bellek alanları
-2. A_Deneme.Arac
+2. A_Deneme.Kisi
 Process: işletim sistemine göre
 Threads: bir programdaki programcı tarafından
 3. Biçimler

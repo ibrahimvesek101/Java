@@ -110,10 +110,10 @@ public class C01_LambdaExpression {
 
         sayiList.//akısa girecek coll kaynagı call edildi
                 stream().//coll dan gelen elemanlar akısa alındı
-                forEach(C01_LambdaExpression::yazdir);//akısdaki herbir elemanprint meth refere ediler yazdırlıldı.
+                forEach(C01_LambdaExpression::yazdirInt);//akısdaki herbir elemanprint meth refere ediler yazdırlıldı.
 
     }
-    public static void yazdir(int a){//normal Allah'ın  methodu-> int olan parametreyi yan yana boslukla print ediyor
+    public static void yazdirInt(int a){//normal Allah'ın  methodu-> int olan parametreyi yan yana boslukla print ediyor
         //seed ->tohum çekirdek method:refere edilecek meth
 
         System.out.print(a+" ");
@@ -121,5 +121,12 @@ public class C01_LambdaExpression {
 
     public static boolean ciftMi(int x){
         return x%2==0;
+    }
+
+
+    public static void yazdirStr(String a){//normal Allah'ın  methodu-> int olan parametreyi yan yana boslukla print ediyor
+        //seed ->tohum çekirdek method:refere edilecek meth
+
+        System.out.print(a+" ");
     }
 }

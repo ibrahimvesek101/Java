@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Kontrol {
+public class Int_Kontrol {
     static Scanner input = new Scanner(System.in);
 
     public static int sayıAlKontrolEt() {
