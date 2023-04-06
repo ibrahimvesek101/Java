@@ -56,6 +56,7 @@ public class C01_LambdaExpression {
         printElfunctional2(sayiList);
 
 
+
     }//main sonu
     //task 01->  "Structured Programming"--> AMELE Programming kullanara list elemanlarını aynı satırda aralarında bosluk olacak şekilde print ediniz.
 
