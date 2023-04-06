@@ -23,9 +23,9 @@ Ancak obj DataType olarak parent interface tanımlanabilir.
 
         // add methodu
 
-        ll1.add("dolma");
+        ll1.add("dolma");//[domates, salatalık, limon, biber, havuç]
 
-        System.out.println("ll1  dolma sonrası = " + ll1);
+        System.out.println("ll1  dolma sonrası = " + ll1);// [domates, salatalık, limon, biber, havuç, dolma]
 
         ll1.add(1, "sucuk");
 

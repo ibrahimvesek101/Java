@@ -8,9 +8,9 @@ public class Task01 {
     public static void main(String[] args) {
 /*
 Task->
-Node değerleri "Murat","javaCAN","javaTAR","Abdi bey" olan bir linkedList create ediniz.
-Girilen bir String değeri linkedListte varlığını kontrol edip varsa slilp "Agam eleman halledildi"
-yoksa "Agam aradığınız kişiye ulaşılamadı" print eden code create edinzi
+Node değerleri "ibrahim", "javaCAN", "javaTAR", "Balıkesir" olan bir linkedList create ediniz.
+Girilen bir String değeri linkedListte varlığını kontrol edip varsa slilp "eleman halledildi"
+yoksa "aradığınız kişiye ulaşılamadı" print eden code create edinzi
 
  */
 

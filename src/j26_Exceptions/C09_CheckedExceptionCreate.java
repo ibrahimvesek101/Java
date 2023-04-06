@@ -12,6 +12,7 @@ public class C09_CheckedExceptionCreate {
         private static final int serialVersionUID = 1001;
 
         private EnrolIdCheckedException(String message) {
+
             super(message);
         }
     }

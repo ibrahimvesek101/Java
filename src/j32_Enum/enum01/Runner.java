@@ -5,8 +5,8 @@ public class Runner {
 
         //task- > verilen ayın numarasına göre kaç gün olduğunu prınt ediniz.
 
-       // int ay = 3;
-Aylar ay =Aylar.MART;
+        // int ay = 3;
+        Aylar ay = Aylar.MART;
         System.out.println("ay = " + ay);
         System.out.println("ay.name() = " + ay.name());
         System.out.println("ay.ordinal() = " + ay.ordinal());

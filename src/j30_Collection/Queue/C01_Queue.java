@@ -13,7 +13,7 @@ Queue coll. interface oldg için child calss olan LinkedList ve PriorityQueue
 ile obj uretilir.
 Eczane yemekhane vs belirli şart ile aksiyon alan elemanlar için kullanılır.
 Cons seçimine göre queue obj özelliklieri belirlenir.
-FİFO -> first in first out: Coll. ilk giren eleman ilk çıkar.Elemen en sona eklenişr enbaştan silinir
+FİFO -> first in first out: Coll. ilk giren eleman ilk çıkar.Elemen en sona eklenişr en baştan silinir
 
  */
 
@@ -28,7 +28,7 @@ FİFO -> first in first out: Coll. ilk giren eleman ilk çıkar.Elemen en sona e
 
         System.out.println("q2  ilk= " + q2);
         q2.add("bodrum");
-        System.out.println("q2  ilk= " + q2);
+        System.out.println("q2 +bodrum " + q2);
 
         System.out.println("q1.element() = " + q1.element());   //
         System.out.println("q1.peek() = " + q1.peek()); //

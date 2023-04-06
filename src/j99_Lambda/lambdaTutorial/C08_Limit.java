@@ -10,7 +10,7 @@ public class C08_Limit {
     public static void main(String[] args) {
 
         //limit(a) akısdan cıkan elemanları a parametresine gore ilk a elamanı alır.
-        List<String> yemekList = new ArrayList<>(Arrays.asList("baklavacızade", "güllaç", "Sütlaç", "künefe", "güllaç", "baklava"));
+        List<String> yemekList = new ArrayList<>(Arrays.asList("Antep_Baklava", "güllaç", "Sütlaç", "künefe", "güllaç", "baklava"));
 
 
         System.out.println("   task01   ");
@@ -37,7 +37,7 @@ public class C08_Limit {
                 .stream()
                 .sorted(Comparator.comparing(String::length).reversed())
                 .limit(1)); //java.util.stream.SliceOps$1@7c30a502
-        System.out.println("***");
+        System.out.println("***v.1");
         /*
         limit(a)-> return typ bir Stream oldg için yani yeni bir elelman akışı oldg için birden çok elelman return edebilir.
         dolayısıyla limit() meth çıktısı doğrudan sout parametre olamaz(print edilemez) .
@@ -50,15 +50,31 @@ public class C08_Limit {
                 .limit(1); //java.util.stream.SliceOps$1@7c30a502
         System.out.println(Arrays.toString(enBuyukEleman.toArray()));
 
-        System.out.println("***");
+        System.out.println("***v.2");
 
      Object [] yemekArr =  yemekList
                 .stream()
                 .sorted(Comparator.comparing(String::length).reversed())
-                .limit(1).toArray(); //java.util.stream.SliceOps$1@7c30a502
+                .limit(1).toArray();
 
         System.out.println(Arrays.toString(yemekArr));
 
+        System.out.println("***v.3");
+
+         yemekList
+                .stream()
+                .sorted(Comparator.comparing(String::length).reversed())
+                .findFirst();
+
+        System.out.println(Arrays.toString(yemekArr));
+
+
+        System.out.println("***v.4");
+
+        yemekList
+                .stream()
+                .sorted(Comparator.comparing(String::length).reversed())
+                .limit(1).forEach(C01_LambdaExpression::yazdirStr);
 
 
     }

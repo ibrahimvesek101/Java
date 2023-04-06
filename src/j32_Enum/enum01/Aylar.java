@@ -14,8 +14,8 @@ public enum Aylar {
     KASIM,
     ARALIK;
 
- //   public static void main(String[] args) {      main açılabilir.
- //
- //   }
+    //   public static void main(String[] args) {      main açılabilir.
+    //
+    //   }
 }
 

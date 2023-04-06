@@ -13,8 +13,8 @@ public class C02_FileInputStreamException01 {
         int k;
         while ((k=fis.read())!=-1){ //fis.read() meth ile ulaşılan file ascii değerleri -1 olmama şartı.
             System.out.print((char) k);
-
         }
         System.out.println("app sorunsuz çalıştı.");
+
     }
 }

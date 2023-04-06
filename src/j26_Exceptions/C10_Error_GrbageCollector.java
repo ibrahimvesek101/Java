@@ -7,7 +7,7 @@ public class C10_Error_GrbageCollector {
     Finalize etmek icin finalize() methodunu call edilir ve method'un ne zaman run edileceğie  Java
     hash code ile arka planda kendisi belirler. code yazılırken istenirse  finalize() methodunu call
     edilebilir ancak methodun ne zaman run edleeğini Java belirler.
-	 	2) "final", "finally", "finalize" aciklar misiniz?
+         2) "final", "finally", "finalize" aciklar misiniz?
     final(keyword): ==> final method override edilemez.
     final variable initialize edilmeli ve  degeri degistirilemez.
     final class child class sahibi olamaz inherit edilemez.
