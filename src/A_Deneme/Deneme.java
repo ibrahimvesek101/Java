@@ -1,6 +1,6 @@
 package A_Deneme;
 
-public class Ogrenci  {
+public class Deneme {
 
 
      public static void main(String[] args) {
