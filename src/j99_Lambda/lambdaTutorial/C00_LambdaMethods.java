@@ -129,6 +129,7 @@ public class C00_LambdaMethods {
     satir.map(t->t.split(" ")).
                     flatMap(Arrays::stream). kelimelere ulasmamizi saglar
 
+
     */
 }
 
