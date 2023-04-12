@@ -76,6 +76,7 @@ public class C01_LambdaExpression {
 
     }
 
+
     /*
         stream() : datalari yukaridan asagiya akis sekline getirir. Stream bir interface olduğundan dolayı doğrudan nesne almaz.
         forEach() :datanin parametresine gore her bir elemanı isler
