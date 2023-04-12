@@ -1,4 +1,4 @@
-package Day04;
+package Digerleri.interview.src.Day04;
 
 import java.util.Scanner;
 
@@ -10,6 +10,23 @@ public class Q03_CountFactors {
        Factors of 8  = 1, 2, 4, 8 ==> 4
 */
       public static void main(String[] args) {
+
+        /*  Scanner input = new Scanner(System.in);
+          System.out.print("carpanlarini bulmak istediginiz sayiyi giriniz :");
+          int sayi = Math.abs(input.nextInt());
+
+          int count = 0;
+
+          for (int i = 1; i <= sayi; i++) {
+              if (sayi%i == 0) {
+                  count++;
+                  System.out.print(i + " ");
+              }
+          }
+          System.out.println("\nsayınızın çarpan sayısı = " + count);
+
+         */
+
           Scanner scan = new Scanner(System.in);
           System.out.print("carpanlarini bulmak istediginiz sayiyi giriniz :");
           int sayi = Math.abs(scan.nextInt()); //sayinin mutlak degerini aldik..
@@ -31,7 +48,7 @@ public class Q03_CountFactors {
               i++;
           }
 
-          System.out.println("Çarpan sayısı = "+counter);
+          System.out.println("Çarpan sayısı = "+(counter-1));
 
       }
 

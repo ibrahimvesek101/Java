@@ -1,4 +1,4 @@
-package Day04;
+package Digerleri.interview.src.Day04;
 
 import java.util.Scanner;
 
@@ -8,6 +8,10 @@ public class Q04_PrintVowelsOfString {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Bir string giriniz: ");
+
+
+      //  System.out.println(metin.replaceAll("[^aeıioöuü]", ""));
+
         String str = scanner.nextLine().toLowerCase();//soruda kucuk harf istemis o yuzden toLowerCase yaptik
         String str2=str.replaceAll("[^aeiuo]","");
         // ustteki şağka , sağındaki harflerin dışındakiler anlamına gelir
