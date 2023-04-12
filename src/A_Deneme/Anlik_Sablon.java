@@ -1,3 +1,5 @@
+package A_Deneme;
+
 import java.util.Scanner;
 
 public class Anlik_Sablon {

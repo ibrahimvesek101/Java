@@ -1,4 +1,4 @@
-package Day04;
+package Digerleri.interview.src.Day04;
 
 import java.sql.Connection;
 import java.util.Scanner;

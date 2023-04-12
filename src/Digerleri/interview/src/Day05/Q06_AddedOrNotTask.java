@@ -1,4 +1,4 @@
-package Day05;
+package Digerleri.interview.src.Day05;
 
 import java.util.ArrayList;
 import java.util.HashSet;

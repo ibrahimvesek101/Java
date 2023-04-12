@@ -1,4 +1,4 @@
-package Day05;
+package Digerleri.interview.src.Day05;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -22,12 +22,14 @@ public class Q01_SetTask {
 
     public static void main(String[] args) {
         ArrayList<Integer> arrList = new ArrayList<>();
+
         arrList.add(10);
         arrList.add(20);
         arrList.add(30);
         arrList.add(10);
         arrList.add(20);
         arrList.add(50);
+
         System.out.println("arrList = " + arrList);
         Set<Integer> set = new HashSet<>();
         Set<Character> setCharacter = new HashSet<>();
@@ -46,13 +48,11 @@ public class Q01_SetTask {
         }
     }
 
-
     private static void arrayListtenSetOlustur2(ArrayList<Integer> arrList, Set<Integer> set) {
         for (Integer sayi:arrList ) {
             set.add(sayi);
         }
     }
-
 
     private static Set<Integer> arrayListtenSetOlustur(ArrayList<Integer> arrList) {
         Set<Integer> set = new HashSet<>();
@@ -60,5 +60,6 @@ public class Q01_SetTask {
             set.add(sayi);
         }
         return set;
+
     }
 }

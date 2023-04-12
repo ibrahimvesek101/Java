@@ -1,4 +1,4 @@
-package Day05;
+package Digerleri.interview.src.Day05;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;

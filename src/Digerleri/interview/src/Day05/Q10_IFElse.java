@@ -1,4 +1,4 @@
-package Day05;
+package Digerleri.interview.src.Day05;
 
 public class Q10_IFElse {
 		/*

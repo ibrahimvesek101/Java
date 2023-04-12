@@ -1,3 +1,5 @@
+package A_Deneme;
+
 import java.util.*;
 import java.util.Arrays;
 import java.util.ArrayList;
@@ -12,15 +14,7 @@ public class Anlik {
 
     public static void main(String[] args) {
 
-        String name="ibrahim";
-        int a =10;
-        System.out.println(a);
-        System.out.println((a * 5));
-        System.out.println(a);
 
-        System.out.println(name);
-        System.out.println(name.toUpperCase());
-        System.out.println(name);
 
     }
 
