@@ -29,8 +29,6 @@ public class C04_Reduce {
         System.out.println("\n*** task03***");
         ciftElemanlarıCarp(sayiList);
 
-
-
         System.out.println("\n*** task04***");
         enKckElPrint( sayiList);
 
