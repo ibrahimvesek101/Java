@@ -16,6 +16,7 @@ public class HelloWorld {
        başarı gayrete aşıktır
        bahanesi olanın başarısı olmaz
         */
+
         /*
         bu gibi şöyle yapılır haluk hoca dediki madem geldin dünyaya otur çalış javaya
          */
