@@ -17,6 +17,7 @@ public class Q13_PrintArray {
         for (String each:arr) {
             System.out.print(each+" ");
         }
+
         System.out.println();
     }
 }
