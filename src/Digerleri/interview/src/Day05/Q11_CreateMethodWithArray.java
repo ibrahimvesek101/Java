@@ -36,7 +36,6 @@ public class Q11_CreateMethodWithArray {
         }
         System.out.println("Max of Array : "+max);
     }
-
     private static void sumArray(int[] arr) {
         int sum=0;
         for (int each:arr ) {
@@ -58,7 +57,4 @@ public class Q11_CreateMethodWithArray {
             arr[i] = rnd.nextInt(11);
         }
     }
-
-
-
 }

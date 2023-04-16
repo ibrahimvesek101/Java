@@ -34,9 +34,11 @@ public class Q02_2D_CollectionsTask {
         sirketler.add("Google");
         sirketler.add("Testinium");
         sirketler.add("IBM");
+
         listeler.add(calisanlar);
         listeler.add(isverenler);
         listeler.add(sirketler);
+
         System.out.println("listeler = " + listeler);
         for (int i = 0; i <listeler.size() ; i++) {
             System.out.println(listeler.get(i).size());
