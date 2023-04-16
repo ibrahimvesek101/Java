@@ -6,6 +6,7 @@ public class HelloWorld {
         PACKAGE OLUSTURMA==>java dosyasina sag click==>New==>Package==>istedigin ismi yaz kucuk harfle basla( day01_variables )
         CLASS OLUSTURMA==>olusturdugun package uzerine sag click==>New==Class==> istedigin ismi yaz buyuk harfle basla ( C01_Variables )
      */
+
     public static void main(String[] args) { //main method -> arabanın motoru gibidir :) icinde kullanacaginiz hersey "static" olmalidir.
         // System.out.println("merhaba dünya");// bu komut konsala yazılan metni print eder
 
