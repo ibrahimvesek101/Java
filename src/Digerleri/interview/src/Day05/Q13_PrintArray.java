@@ -11,6 +11,7 @@ public class Q13_PrintArray {
         printElements(arabalar);
         printElements(renkler);
 
+
     }
     public static void printElements(String[] arr){
 
