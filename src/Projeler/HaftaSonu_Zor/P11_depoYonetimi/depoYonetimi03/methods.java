@@ -171,6 +171,7 @@ public class methods {
         } else System.out.println("Aradıgınız Urun Sistemde Yok");
         urunleriListele();
     }
+
     private static void miktariGuncelledr(int arananIdJ) {
         System.out.println("Lutfen Miktari Giriniz");
         int guncelMiktarJ;
@@ -188,6 +189,7 @@ public class methods {
         System.out.println("Urun miktariniz Guncel Hale Getirildi " + urunlerJ.get(arananIdJ).getMiktar() + "x" +
                 urunlerJ.get(arananIdJ).getBirim());
     }
+
     private static void miktardaIslem(int arananIdJ) {
         System.out.println("\n" + "==JAVANAR DEPO YONETIM SISTEMI==\r\n"
                 + "     \n"
@@ -304,10 +306,9 @@ public class methods {
 
     }
 
-
     private static void cıkıss() {
         System.out.println("CIKIYORSUN BAK SUAN");
         System.exit(0);
     }
 
-    }
+}

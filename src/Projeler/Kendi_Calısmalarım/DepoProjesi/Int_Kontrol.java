@@ -1,3 +1,5 @@
+package Projeler.Kendi_Calısmalarım.DepoProjesi;
+
 import java.util.Scanner;
 
 public class Int_Kontrol {
@@ -19,19 +21,5 @@ public class Int_Kontrol {
         }
         return sayi;
     }
-
-
-
-
-
-    int secim;
-
-        while (true) {
-        try {
-            secim = Integer.parseInt(input.next());  //integer giris yapilana kadar while
-            break;
-        } catch (Exception e) {
-            System.out.print("Girişiniz bir rakam olmalı. Lutfen bir rakam tuslayin: ");
-        }
-
+}
 
