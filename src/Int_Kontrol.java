@@ -3,6 +3,28 @@ import java.util.Scanner;
 public class Int_Kontrol {
     static Scanner input = new Scanner(System.in);
 
+    public static void main(String[] args) {
+
+        System.out.print("raf no giriniz: ");
+        int sayi=input.nextInt();
+
+        intSayiKontrol(sayi);
+
+        switch (sayi){
+            case 1:
+                System.out.println("selam");
+                break;
+            case 2:
+                System.out.println("merhaba");
+                break;
+        }
+
+
+
+
+
+    }
+
     public static int sayıAlKontrolEt() {
 
         boolean bayrak = true;
@@ -21,25 +43,8 @@ public class Int_Kontrol {
     }
 
 
-    public static void main(String[] args) {
 
-
-        int secim;
-
-        while (true) {
-            try {
-                secim = Integer.parseInt(input.next());  //integer giris yapilana kadar while
-                break;
-            } catch (Exception e) {
-                System.out.print("Girişiniz bir rakam olmalı. Lutfen bir rakam tuslayin: ");
-            }
-
-
-
-        }
-    }
-
-    public void intSayiKontrol(int sayi){
+    public static void intSayiKontrol(int sayi){
 
         while (true) {
             try {
@@ -51,4 +56,6 @@ public class Int_Kontrol {
         }
 
     }
+
+
 }
