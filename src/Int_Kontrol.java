@@ -21,17 +21,20 @@ public class Int_Kontrol {
     }
 
 
+    public static void main(String[] args) {
 
 
-
-    int secim;
+        int secim;
 
         while (true) {
-        try {
-            secim = Integer.parseInt(input.next());  //integer giris yapilana kadar while
-            break;
-        } catch (Exception e) {
-            System.out.print("Girişiniz bir rakam olmalı. Lutfen bir rakam tuslayin: ");
+            try {
+                secim = Integer.parseInt(input.next());  //integer giris yapilana kadar while
+                break;
+            } catch (Exception e) {
+                System.out.print("Girişiniz bir rakam olmalı. Lutfen bir rakam tuslayin: ");
+            }
+
+
         }
-
-
+    }
+}
