@@ -37,4 +37,17 @@ public class Int_Kontrol {
 
         }
     }
+
+    public void intSayiKontrol(int sayi){
+
+        while (true) {
+            try {
+                sayi = Integer.parseInt(input.next());  //integer giris yapilana kadar while
+                break;
+            } catch (Exception e) {
+                System.out.print("Girişiniz bir rakam olmalı. Lutfen bir rakam tuslayin: ");
+            }
+        }
+
+    }
 }
