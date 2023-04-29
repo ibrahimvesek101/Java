@@ -5,51 +5,32 @@ public class Int_Kontrol {
 
     public static void main(String[] args) {
 
+        // Method nasıl çalışıyor diye switch create ettim...
+        //main olmasa da olur... sadece intSayiKontrol() methodunu kullanınız..
+
+
         System.out.print("raf no giriniz: ");
-        int sayi=input.nextInt();
-
-        intSayiKontrol(sayi);
-
-        switch (sayi){
+        switch (intSayiKontrol()) {
             case 1:
-                System.out.println("selam");
+                System.out.println("1.seçenek seçildi.");
                 break;
             case 2:
-                System.out.println("merhaba");
+                System.out.println("2.seçenek seçildi.");
                 break;
+            default:
+                System.out.println("Yanlış giriş yapıldı. Tekrar deneyiniz.");
         }
-
-
-
-
-
-    }
-
-    public static int sayıAlKontrolEt() {
-
-        boolean bayrak = true;
-        int sayi = 0;
-
-        System.out.print("Sayı giriniz : ");
-        while (bayrak) {
-            try {
-                sayi = Integer.parseInt(input.nextLine());
-                bayrak = false;
-            } catch (Exception e) {
-                System.out.println("Yanlış giriş. Lütfen bir sayı giriniz : ");
-            }
-        }
-        return sayi;
     }
 
 
+    // parametresiz, return type int olan bir method create edildi.int kontrol edildi...
 
-    public static void intSayiKontrol(int sayi){
-
+    public static int intSayiKontrol() {
+        int sayi;
         while (true) {
             try {
                 sayi = Integer.parseInt(input.next());  //integer giris yapilana kadar while
-                break;
+                return sayi;
             } catch (Exception e) {
                 System.out.print("Girişiniz bir rakam olmalı. Lutfen bir rakam tuslayin: ");
             }

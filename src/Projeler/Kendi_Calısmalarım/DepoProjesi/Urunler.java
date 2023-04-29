@@ -16,7 +16,6 @@ public class Urunler {
     }
 
     public Urunler() {
-
     }
 
     public String getUrunAdı() {

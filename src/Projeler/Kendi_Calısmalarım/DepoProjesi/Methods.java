@@ -9,6 +9,11 @@ public class Methods {
 
     public static void depoGiris() {
 
+
+        // RAF GÜNCELLEME menüsü gereksiz fakat taskta istediği için koydum.
+        // ÜRÜN GÜNCELLEME kısmında istediğiniz güncellemeyi yapabilirsiniz.
+
+
         System.out.print("\n" + "           ==NEDACAN DEPO YONETIM SISTEMI==            \r\n"
                 + "     \n"
                 + "    1-URUN TANIMLAMA               2-ÜRÜN GÜNCELLEME  \n"
@@ -21,27 +26,14 @@ public class Methods {
                 "\nLutfen Yapmak Istediginiz Islem Numarasini Giriniz: "
         );
 
-        int secim;
 
-        while (true) {
-            try {
-                secim = Integer.parseInt(input.next());  //integer giris yapilana kadar while
-                break;
-            } catch (Exception e) {
-                System.out.print("Girişiniz bir rakam olmalı. Lutfen bir rakam tuslayin: ");
-            }
-        }
-
-
-        switch (secim) {
+        switch (Int_Kontrol.intSayiKontrol()) {
             case 1:
-                input.nextLine();
                 urunTanimla();
                 depoGiris();
                 break;
 
             case 2:
-                input.nextLine();
                 urunGuncelle();
                 depoGiris();
                 break;
@@ -50,12 +42,10 @@ public class Methods {
                 depoGiris();
                 break;
             case 4:
-                input.nextLine();
                 urunSil();
                 depoGiris();
                 break;
             case 5:
-                input.nextLine();
                 urunListele();
                 depoGiris();
                 break;
@@ -70,18 +60,15 @@ public class Methods {
     }
 
     private static void urunGuncelle() {
-        System.out.print("\n*** ÜRÜN GÜNCELLEME MENÜSÜ ***\n\n1-İSİM GÜNCELLEME\n2-ÜRETİCİ GÜNCELLEME\n3-MİKTAR GÜNCELLEME\n4-BİRİM GÜNCELLEME\n5-RAF GÜNCELLEME\nSeçmek istediğinizin sıra numarasını giriniz : ");
-
-        int guncelSecim = input.nextInt();
+        System.out.print("\n*** ÜRÜN GÜNCELLEME MENÜSÜ ***\n\n1-İsim Güncelleme\n2-Üretici Güncelleme\n3-Miktar Güncelleme\n4-Birim Güncelleme\n5-Raf Güncelleme\nSeçmek istediğinizin sıra numarasını giriniz : ");
 
 
-        switch (guncelSecim) {
+        switch (Int_Kontrol.intSayiKontrol()) {
             case 1:
                 System.out.print("Lutfen İsmini Guncellemek Istediginiz Urunun Id'sini Giriniz: ");
-                int girilenId1 = input.nextInt();
+                int girilenId1 = Int_Kontrol.intSayiKontrol();
 
                 if (urunlerMap.keySet().contains(girilenId1)) {
-                    input.nextLine();
                     System.out.print(girilenId1+" id nolu ürün için yeni isim giriniz: ");
                     String yeniİsim=input.nextLine();
 
@@ -100,10 +87,9 @@ public class Methods {
 
             case 2:
                 System.out.print("Lutfen Üreticisini Guncellemek Istediginiz Urunun Id'sini Giriniz: ");
-                 int girilenId2=input.nextInt();
+                 int girilenId2=Int_Kontrol.intSayiKontrol();
 
                 if (urunlerMap.keySet().contains(girilenId2)) {
-                    input.nextLine();
                     System.out.print(girilenId2+" id nolu ürün için yeni üretici giriniz: ");
                     String yeniÜretici=input.nextLine();
 
@@ -122,12 +108,11 @@ public class Methods {
 
             case 3:
                 System.out.print("Lutfen Miktarını Guncellemek Istediginiz Urunun Id'sini Giriniz: ");
-                int girilenId3 = input.nextInt();
+                int girilenId3 = Int_Kontrol.intSayiKontrol();
 
                 if (urunlerMap.keySet().contains(girilenId3)) {
-                    input.nextLine();
                     System.out.print(girilenId3+" id nolu ürün için yeni miktar giriniz: ");
-                    int yeniMiktar=input.nextInt();
+                    int yeniMiktar=Int_Kontrol.intSayiKontrol();
 
                     urunlerMap.get(girilenId3).setMiktar(yeniMiktar);
 
@@ -142,10 +127,9 @@ public class Methods {
                 break;
             case 4:
                 System.out.print("Lutfen Birimini Guncellemek Istediginiz Urunun Id'sini Giriniz: ");
-                int girilenId4 = input.nextInt();
+                int girilenId4 = Int_Kontrol.intSayiKontrol();
 
                 if (urunlerMap.keySet().contains(girilenId4)) {
-                    input.nextLine();
                     System.out.print(girilenId4+" id nolu ürün için yeni birim giriniz: ");
                     String yeniBirim=input.nextLine();
 
@@ -162,10 +146,9 @@ public class Methods {
                 break;
             case 5:
                 System.out.print("Lutfen Rafını Guncellemek Istediginiz Urunun Id'sini Giriniz: ");
-                int girilenId5 = input.nextInt();
+                int girilenId5 = Int_Kontrol.intSayiKontrol();
 
                 if (urunlerMap.keySet().contains(girilenId5)) {
-                    input.nextLine();
                     System.out.print(girilenId5+" id nolu ürün için yeni raf numarası giriniz: ");
                     String yeniRaf=input.nextLine();
 
@@ -181,26 +164,37 @@ public class Methods {
                 depoGiris();
                 break;
 
-
+            default:
+                System.out.println("Seçeneklerin dışında giriş yapıldı. Tekrar deneyiniz.");
+                urunGuncelle();
         }
     }
 
     private static void urunSil() {
         System.out.print("Lütfen Silmek İstediğiniz Ürünün Id'sini Giriniz: ");
-        int silinecekId = input.nextInt();
-        urunlerMap.remove(silinecekId);
-        System.out.println(silinecekId + " id nolu ürün başarılı bir şekilde silinmiştir.");
+        int silinecekId = Int_Kontrol.intSayiKontrol();
+   //     urunlerMap.remove(silinecekId);
+   //     System.out.println(silinecekId + " id nolu ürün başarılı bir şekilde silinmiştir.");
+
+
+        if (urunlerMap.keySet().contains(silinecekId)) {
+            urunlerMap.remove(silinecekId);
+            System.out.println(silinecekId + " id nolu ürün başarılı bir şekilde silinmiştir.");
+
+        } else {
+            System.out.println("Aradıgınız Urun Sistemde Yok. Sistemdeki Urunleriniz Asagidaki Gosterilmistir");
+            urunSil();
+        }
 
     }
 
     private static void rafGuncelle() {
         System.out.print("Lutfen Rafini Guncellemek Istediginiz Urunun Id'sini Giriniz: ");
-        int arananId = input.nextInt();
-        //  input.nextLine();
+        int arananId = Int_Kontrol.intSayiKontrol();
 
         if (urunlerMap.keySet().contains(arananId)) {
             System.out.print("Yeni raf numarasını giriniz: ");
-            int yeniRaf = input.nextInt();
+            int yeniRaf = Int_Kontrol.intSayiKontrol();
 
             urunlerMap.get(arananId).setRaf(String.valueOf(yeniRaf));   //pojo da Raf String tanımlamışım .Değiştirmek istemedim.- String.valueOf(yeniRaf)-
 
@@ -225,7 +219,6 @@ public class Methods {
         System.out.println(urunlerMap.toString().toUpperCase());
 
     }
-
     private static void urunTanimla() {
         int id = 100;
         while (true) {
@@ -243,9 +236,8 @@ public class Methods {
         String birim = input.nextLine();
 
         System.out.print("Urun Miktar Giriniz : ");
-        int miktar = input.nextInt();
+        int miktar = Int_Kontrol.intSayiKontrol();
 
-        input.nextLine();
         System.out.print("Urun Icin Raf Bilgisi Giriniz : ");
         String raf = input.nextLine();
 
