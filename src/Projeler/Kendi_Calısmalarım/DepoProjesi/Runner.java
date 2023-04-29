@@ -13,8 +13,6 @@ public class Runner {
         Methods.urunlerMap.put(102,su);
 
 
-
-
         Methods.depoGiris();
     }
 }
