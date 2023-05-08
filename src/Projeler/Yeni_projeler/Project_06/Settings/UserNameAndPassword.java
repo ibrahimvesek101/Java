@@ -77,7 +77,7 @@ public class UserNameAndPassword {
     //TODO also need to initialize my arraylist
     // TODO   my arraylist initialize et
     private String userName, password;
-    static ArrayList<String> UserNameLists = new ArrayList<>();
+    public static  ArrayList<String> UserNameLists = new ArrayList<>();
 
 
     /*
@@ -125,7 +125,7 @@ public class UserNameAndPassword {
 
        ve userName return et
    */
-    String setUsername(String myUsername) {
+    public String setUsername(String myUsername) {
         if (myUsername.length() < 6) {
             return "Username length should be more then 6";
         }
