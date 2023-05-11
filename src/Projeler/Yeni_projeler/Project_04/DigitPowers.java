@@ -40,6 +40,7 @@ public class DigitPowers {
 
       */
 
+
         public int power4(int num){
 
          return 0;
