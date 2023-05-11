@@ -1,0 +1,618 @@
+ISTQB
+
+
+SORU : Onaylama testinin amacı nedir?
+CEVAP : Daha once bulunan bir kusurun mevcut olup olmadigini kontrol etmek ve basariyla duzeltildigini onaylamaktir
+
+SORU : Etki analizlerl?
+CEVAP : Sistemdeki degisikligin etkisini degerlendirerek ne kadar regresyon testi yapilacagina karar verir
+
+SORU :Test senaryolarinin kullanim amaci?
+CEVAP : Dinamik testte hatalari tespit etmek icin kullanilir
+
+SORU :Test senaryolarinin uretilmesi?
+CEVAP : Kara kutu test tasarim teknigi
+
+SORU :Test planda ana gorev?
+CEVAP : test analizleri ve tasarim gorevlerini zamanlama
+
+SORU :Test cikis kriterlerinin amaci ?
+CEVAP : test faaliyetlerinin ne zaman durdurulacagini belirtmek icindir
+
+SORU :Test plan icinde
+CEVAP :
+:white_check_mark: test edilecek ogeler
+:white_check_mark: test ciktilari
+:white_check_mark: rol ve sorumluluklar
+:x: belirtecler
+
+SORU :Test plan icinde
+CEVAP :
+:white_check_mark: gorev zamanlamalari, kilometre tasi tarihleri
+:white_check_mark: test ortami tanimlamalari
+:white_check_mark: test edilecek ortam
+:x: kalite planlari
+
+
+SORU : Alfa ve Beta test farki
+CEVAP : Alfa once yapilir, gelistirme ekibi ve ortam musterilerine uygulanir
+        Beta testi sonra yapilir, gercek kullanicilara dagitilip uygulanir
+
+SORU : Konfigurasyon yonetiminin amaci
+CEVAP : Sürüm kontrol ve yapılandırma, yazılım surumunun belirlenmesi, test yazılım urunlerindeki degisikliklerin izlenebilmesi
+
+SORU : Test gereksinimlerinin çıkarılma asamasi
+CEVAP : Test Analizi
+
+SORU : Test yonetimi ile ilgili tanımlamalar
+CEVAP : Test planlama asmasinda
+
+SORU : Test ararclarinin en onemli faydasi
+CEVAP : Testlere yuksek oranda tutarlilik ve test faaliyetleri ile ilgili bilgiye ulasim kolayligi
+
+SORU : Test bagimsizliginin en onemli faydalari
+CEVAP :Etki testlerinin tasarlanmasida developerlarin onyargisini onler
+
+SORU : Beyaz kutu test tasarım teknikleri
+CEVAP :White box
+
+SORU : Test condition
+CEVAP :test hedeflerine ulasmasiyla ilgili test esasinin ilgli yonu
+
+SORU : Test yoneticisi
+CEVAP :plan- organize- kontrol
+
+SORU : Test analisti
+CEVAP :belirler- gelistirir- yurutur
+
+SORU :Statement coverage
+CEVAP :testler sonunda calistirilan kodun yuzdesini gosterir
+
+:star2: Desicion  (Branch) Coverage > Statement Coverage -> karar kapsamı ifade kapsamindan daha gucludur
+
+:star2: %100 karar kapsamı, %100 ifade kapsamını garanti eder
+
+
+:star2:  herseyi kapsayan test ; uygulanabilir degil ve mantıksızdır
+
+SORU :Test kapanısında
+CEVAP :test ortamı ve test senaryoları devrolur
+
+SORU :Statik analiz aracları
+CEVAP :Developer kullanır
+
+SORU :Testlerin durması
+CEVAP :riskler ortadan kalktıgında ve guven olsutugunda
+
+SORU :Test takımı
+CEVAP :test durumlarının birimler halinde gruplanması
+
+SORU :Failure
+CEVAP :canliya ciktiktan sonraki hata
+
+SORU :Test faaliyetlerine baslama
+CEVAP :yazılım gereksinimleri onaylandıgında
+
+SORU :Statement coverage (ifade kapsamı)
+CEVAP :
+:white_check_mark: kullanilmayan dallarini tespit eder
+:white_check_mark: olu kod parcalarinı tespit eder
+:white_check_mark: kullanilmayan ifadeleri tespit eder
+:x: eksik tanimlamalar
+
+SORU :Kayıt/Yeniden Yurutme Test Araclari
+CEVAP : Regresyon testlerinde daha yogun kullanilir
+
+SORU :Test 1 : A,B,C
+      Test 2 : A,B,D,G,H   percent coverage statement ? 
+CEVAP : 8 adet TC var, 6/8  = %75 
+
+
+SORU :Test yaklasiminda en onemli  olan 
+CEVAP : Mevcut beceri ve deneyimdir
+
+SORU :Keyword Driven Test Tool
+CEVAP : Test girdileri, eylem sozcukleri ve beklenen sonuc kontrolleriyle uyumlu test edilen sistemin yurutulmesi
+
+
+SORU :Incident report da ne yer almaz? 
+CEVAP : Hatanin nasil cozulecegine dair oneriler yer almaz
+
+
+SORU :Coverage measurement ve dinamik analizler 
+CEVAP : Daha cok developerlar yapar
+
+SORU : Beta Testing
+CEVAP : Potansiyel musteriler tarafindan kendi locasyonlarinda gerceklestirilen testlerdir
+
+SORU : Exit criteria
+CEVAP : Test planlamada belirlenir
+
+SORU : Monitoring ve kontrol icin hangi metriklerin kallanilacagi 
+CEVAP : Test planning 
+
+SORU : Test condition- Test senaryosu 
+CEVAP : Test tasarimi sirasinda test kosullari kullanilarak olusturulur
+
+
+SORU :Tecrubeye dayali 
+CEVAP :
+:white_check_mark:hata tahminleme
+:white_check_mark: kesit testi
+:white_check_mark: kontrol listesine dayali test
+:x: karar testi
+
+
+SORU : Planning poker 
+CEVAP : Uzman tabanli teknik
+
+SORU : Burndown chart
+CEVAP : Metrik- olcum tabanli teknik- Agile
+
+SORU : Statement coverage ile hangi yol tamamlanir ? 
+CEVAP : nodes-dugum
+
+SORU : Low Decision Coverage
+CEVAP : Static test ile bulunmaz
+
+SORU : Pesticide Paradox - Antibiyotik direnci
+CEVAP : surekli tekrarlananan testlerde, bir sure sonra hata bulunmaz
+
+SORU : V modeli
+CEVAP : her yazilim aktivitesine karsilik gelen bir test aktivitesi vardir
+
+:star2: Tester;  test planlarini inceler ve katkida bulunur
+
+:star2: Formal reviewlerde bulunan hatayi author (yazar) duzeltir, scribe(katip) kaydeder
+
+SORU : 18<age<45  ,  45<=age<65  sınır deger, test sayisi  ? 
+CEVAP : <18 / >18 / <45 / =45  / <65 / >65   6 adet
+
+
+SORU : Developerdan ziyade testerlarda olmasi gereken ozellik
+CEVAP : profesyonel karamsarlik
+
+:star2: Flowchartlı sorularda statement coverage sorusu gelirse, diyagramda else yoksa SC = 1, else varsa SC = else(count) +1
+
+SORU : WhiteBox testing 
+CEVAP : kod varken, developer, program calistirilinca
+
+SORU : BlackBox testing
+CEVAP : kod olmadan, tester, kullanıcı arayuzunde girilen veriler ile
+
+SORU : Test Stratejilerinde ekip disi 
+CEVAP : consultative- drirected - yonlendirme
+
+SORU : Manuelde sorun yok, otomasyonda sorun var, neyi raporlarsın
+CEVAP : Root Cause, sebebi de test environment- test ortamının degisikligi
+
+SORU : Kodda yanlıs atama olursa, maas yanlis odenirse sebep ? 
+CEVAP : Root cause -kok neden
+
+
+SORU : 100<=x<1000
+       1000<=x<10000
+       10000<=x<=50000 en az ikil sayida test boundary value
+CEVAP : 99-100-999-9999-1000-9999-10000-50000-50001
+
+SORU : BlackBox testing
+CEVAP : gereksinimlerin sapmalarını belirler
+
+
+SORU : Tracebility
+CEVAP : iki farklı degiskenin iliskilendirilmesi 
+        ornek : gereksinim- test /  yazilim- dokuman
+
+
+:star2: Tester 
+:white_check_mark: objectif olmalı
+:x: yapici sekilde sonuc raporu
+
+
+:star2: Tester 
+:white_check_mark: tarafsızdır
+:white_check_mark: bagimsiz tapor sunar
+
+SORU : Test Level
+ara birimler arasi : integrasyon testi
+modul-kod : birim-unit test
+senaryo gereksinim, kullanici senaryolari : system testi
+fonksiyonlar ile ilgli : system testi
+use case -kabul testi -canliya gecme
+
+SORU : Test ilerleme raporu 
+CEVAP : test manager olusturur
+
+
+SORU :  Test ilerleme raporunda
+:white_check_mark: basarili kod yuzdesi
+:white_check_mark: ilerlemeyi engelleyen faktorler
+:white_check_mark: yeni duzeltmelerin sebep oldugu yeni hatalar
+:x: kurallar, sablonlar
+:x: yasal duzenleme
+:x: belge- sozlesme
+
+SORU : Memory Leak Tool  
+CEVAP : dynamic Analysis Tool- bellek sızıntılarını, atamalarını takip eden test araci
+
+SORU : hata tahminleme yaparken olası hataların listesini olusturmak
+CEVAP : metadolojik yaklasim
+
+SORU : bir hata gorunur, digerlerinin gorunmesine engel olursa
+CEVAP : hata maskeleme
+
+SORU : 100<=x<=200   10<=y<=700   
+CEVAP :hangisi hatasiz maskeleme ? (x ve y nin gecersi oldugu aralıgı kastediyor)  x50y750 
+
+SORU : 2 uzeri n  = 16,  
+CEVAP :n-> decision table da kosulda kosul sayisi
+
+SORU : kontrol listesi verildiginde 
+CEVAP : negatif senaryo ve alternatif senaryo icermeli
+
+SORU : proje riski ve urun riskleri ile ilgli gruplamalar
+CEVAP : proje riski -> egitim ve bilgi eksiklligi , personel sorunları, politik sorunlar
+        urun riski -> sistem ve  kullanıcı ile ilgli sorunlar 
+
+SORU : bir banka programında 700 kullanıcı aynı anda hizmet almalı ve bekleme suresi 1 sn den fazla olmamalı.. hangi testler ? 
+CEVAP : performans -load-kullanılabilirlik
+
+SORU : SC diagram soruları , SC icin kac test case yazilmali
+BASLA 
+TIKLA
+CİNSİYET KADINSA MIS YAZ
+CİNSİYET ERKEKSE MR YAZ 
+END
+CEVAP : 2
+
+SORU : eslestrime sorusu
+fayda saglama dusuk maliyet yolu-> informal gozden gecirme
+ogrenme ve anlama-> uzerinden gecme
+suecin iyilestrilmesi-> teftis
+teknik sorunların cozumu-> teknik
+
+SORU : eslestrime sorusu
+yazılım kompleksliginin olculmesi-> statik analiz
+test spesifikasyonlarının olusturulması -> test tasarım
+test kosulu ilem test senaryolarının iliskilendirilmesi-> test yonetim 
+test icin yazılan kodlar ile uygulama icin yazılan kodların iliskilendirilmesi-> konfigurasyon yonetim
+
+
+SORU : Potansiyel  hatalar-bulgular- oneriler -sorunların not alınması hangi asamada  ? 
+CEVAP : Bireysel gozden gecirme
+
+SORU : Hangisi test planlamayı en iyi sekilde tanımlar?
+CEVAP : testlerim kapsamı- hedefleri ve risklerinin belirlenmesi
+
+SORU : Hangisi tecrubeye dayalı test teknigi ? 
+CEVAP : Exploratary testing -Araştırma testi 
+
+SORU : Bir tane Disneyland korku treni var. Çocukların boyuna göre korku oranları belirlenerek bindirilecek. Aşağıdakilerden hangisi  tum grupları kapsar  [ 30-100, 100-120, 120-150, >150]
+CEVAP : :white_check_mark:  20 30 120 140 175
+
+
+SORU : Entry criteria ve exit criteria-  giriş çıkış kiriterleri hangi aşamada belirlenir?
+CEVAP : test planlama
+
+SORU : Sistem testi icin dogru tanım
+CEVAP : sistemin uctan uca testi
+
+SORU : Regression testi icin dogru degil ? 
+CEVAP : sadece sistem testi seviyesinde yapılır
+
+SORU : Fonksiyonel test neden yapılır ? 
+CEVAP : sistemin ne yaptigina bakmak icin
+
+SORU : Test condition(Koşul) nedir,tanımı? 
+CEVAP : Bir ya da daha çok test senaryosu ile doğrulanabilen bir bileşenin veya sistemin bir öğesi ya da olayı. 
+
+SORU :hangisi v modelinin Kabul test dokumanını olusturur?
+CEVAP : is gereksinimleri
+
+SORU :V modelının test sevıyeleerı nedır?
+CEVAP : birim, entegrasyon SİSTEM ve kabul testi
+
+SORU :Aşağıdakilerden hangisi testın genel hedeflerınden değildir?
+:white_check_mark: hataları önleme
+:white_check_mark: kalite seviyesi hakkında guven olusturmak
+:white_check_mark: arıza ve hataları tespit etmek 
+:x: Debugging
+
+SORU :Bankanın faiz hesaplaması için aşağıdaki kriterlerden hangilerine negatif case yazılmalı/yazılabilir ? (23 adım verilmis..)
+1.adım :Ayın ilk günü faiz hesaplama yapılmalı
+2.adım :Ayın ilk iş günü faiz hesaplama yapılmalı
+3.adım :Ayın ilk günü haftasanu ise faiz hesaplama yapılmamalı
+...
+20. adım : sıfır lira varken faiz hesabı yapılmalı
+..
+CEVAP :sadece negatif adımlar + 20.adım
+
+
+SORU :test aktıvıtelerı surecı sırasıyla 
+CEVAP : 
+test planlama
+test gözetimi
+test analizi
+test tasarımı
+test uyarlama
+test koşumu
+test tamamlama
+
+
+SORU : urun riski
+CEVAP : yazılımdam olusan bir hata
+
+SORU :test yöneticisinin görevleri
+CEVAP : TEST YAKLAŞIMI + TEST METRİKLERİ+ TEST TAKVİMLERİ
+
+SORU : hangisi test uzmanını gorevlerınden degıldır?
+CEVAP : testın yaklaşımını ve stratejısını belirlemek
+
+SORU : Bir problemi takıma yada developerlara aktarırken dikkat edilmesi gerekenler
+CEVAP : somut ve yapıcı bıldırım vermek-karşınızdakı kısıyı anlamak-sorunu ekibe / kişiye maletmemek
+
+SORU : asagidakiilerden hangileri test uyarlamadan once ve sonra yapılır ? 
+CEVAP : 
+Senaryo tasarlama --önce
+Dökümantasyonun gözden geçirilmesi--önce
+Planlama--önce
+Raporlama--sonra
+
+
+:star2: :x:  otomasyon test koşumunu developer yapar 
+
+
+SORU : Hangisi Kara kutu testini en iyi tanımlar?
+CEVAP : Sistemin ic yapısını görmeden yapılan testlerdir
+
+
+SORU : Denklik sınıf larını ayırma hangi test tekniklerindendir ? 
+CEVAP : Kara kutu test teknikleri
+
+SORU : Hangisinde entry-exit criteria uygulanır?
+CEVAP : Formal(teftiş)
+
+:star2: Scribe Kullanımı- guncel dokuman bilgisi
+Inspection(Teftis)- Walk Through(Uzerinden gecirme)- Technical Review da mandatory(katip-kaydedici zorunludur)
+
+Soru : hangileri gereksinimi karşılamayan yazılım sonuçlarıdır?
+CEVAP :  -itibar kaybı  -para kaybı  -düşük kullanılabilrilik - sakatlanma ,ölüm- can kaybı - dusuk performans
+
+SORU : IEEE 29119-3 kapsamı nedir ? 
+CEVAP : Test documentation
+Bu belge, herhangi bir organizasyon, proje veya test faaliyeti için kullanılabilecek yazılım testi belge şablonlarını belirtir.ISO/IEC/IEEE 29119-2'de belirtilen süreçlerin çıktısı olan test belgelerini açıklar.
+Bu belge, tüm yazılım geliştirme yaşam döngüsü modellerinde test için geçerlidir.Bu belge, özellikle yazılım testini yönetmek, yönetmek ve uygulamaktan sorumlu olanlar olmak üzere test uzmanları, test yöneticileri, geliştiriciler ve proje yöneticilerine yöneliktir ancak bunlarla sınırlı değildir.
+
+
+SORU : Test uyarlama aracının gorevleri ? [Model-Based testing tools]
+CEVAP : Bu araçlar, tutarsızlıkları belirleyip hataları bularak yazılım modellerini (örnek : ilişkisel veri tabanı için fiziksel veri modeli PDM) doğrulamak için kullanılır. Bu araçlar, modele bağlı olarak test senaryoları üretmede kullanılabilir. 
+
+
+SORU : Test senaryo yuzdelerine hangi asamada bakılır ?
+CEVAP :  Test tasarımında test senaryoları olusturulur, onceliklendirilir, Test Report da test izleme ve kontrolün dışında, kosturmanın da sonucunda alınan rapor.. 100 test calistrdik 80 pass 20 fail .. Bunu iceren rapor.
+
+
+SORU : Test zamanının degistirilmesi hangi asamada?
+
+
+SORU : Statik analiz araclarinin en temel amaci 
+CEVAP : gereksinimleri kontrol etmek(tutarsızlıkları)
+
+
+SORU : Bir bankacilik sistemi müsterilerinin acik kredi karti kullanmasina izin vermektedir. Sisteme gore musteriler 200 tl ye kadar faizsiz acik kredi kullanabilmektedir. 300 tl yi asan kullanımda musteriye uyari yazisi gitmektedir ve kullanilan miktar 500 tl olunca hesap dondurulmaktadir..
+Bu bankacılık sistemini test edebilme için hangi denklik sınıfları kullanılmalıdır?
+
+ CEVAP :  >0 , 0-200, 200-201, 201-300, 300- 499, >=500
+            199,250,320,502 bu sayilari icermeli..
+
+SORU : Decision Table, conditions and rules
+        X  89 bin maaş, A kredi Rate sahip, kiracı
+        Z 100 bin maas, B kredi Rate Evi var
+        Yukardaki musteriler için hangi roller uygundur ? 
+CEVAP :  x rule 2, z rule 4
+
+
+SORU : Test Başlama Kriterleri- Entry Criteria
+CEVAP : Testin ne zaman başlayacağını belirler
+-Personel, araç-gereç, materyal ihtiyaçları
+-Test edilecek ürünün hazır olması
+-Smoke test
+-Test datası olmalı
+-Testi sonlandırma kriterlerinin hazır olmalıdır
+
+SORU :Test Sonlandırma Kriterleri- Exit Criteria
+CEVAP : Testin ne zaman sonlandırılacağını belirler
+-Bir takım testlerin başarılı olduğunda
+-Belirli bir code coverage sağlandığında
+-Hata dağılımı kavranıldığında
+-Bütçe, zaman tamamlandığında
+-Hata bulunma sıklığı azaldığında
+-Kabul edilebilir riskler taşıdığında
+
+
+:star2: Model Tabanlı Test (MBT) araçları, işlevsel bir özelliğin etkinlik diyagramı gibi bir model biçiminde yakalanmasını sağlar. Bu görev genellikle bir sistem tasarımcısı tarafından gerçekleştirilir. MBT aracı daha sonra bir test yönetimi aracına kaydedilebilecek ve/veya bir test yürütme aracı tarafından yürütülebilecek test durumu spesifikasyonları oluşturmak için modeli yorumlar.
+
+:star2: Capturel/playback araclarda veriler ve aksiyonlar dogrusal calisir.
+
+SORU : Unit test sirasinda White-box ve fonksiyonel test yapiliyor.Bu durumda hangisi olmasi beklenir ?
+CEVAP : %100 komut kapsamina ulasilmasi
+
+
+Static test ile dynmaic test karsilastirma sorusu
+ST
+:white_check_mark:kod calistirilmadan
+:white_check_mark:urun gelismeye baslamadan once
+:white_check_mark:onlemek amacli
+:white_check_mark:daha az zaman
+:white_check_mark:derlemeden once
+:white_check_mark:gelisme surecini degerlendirir
+:white_check_mark:kuluçka yoktur !!!!
+
+DT
+:white_check_mark:kod calistirilarak
+:white_check_mark:urun gelistirildikten sonra
+:white_check_mark:care olmak amacli
+:white_check_mark:daha fazla zaman
+:white_check_mark:derlemeden sonra
+:white_check_mark:bitmis bir urun degerlendirir
+:white_check_mark:kuluçka vardır !!!!
+
+SORU : 
+A1=(NotC1 & C2) or C3
+A2=(C1 &C2) or (C3 & C4)
+A3= C1 or (C2 & C3 & C4)
+Test cases to cover minimum coverage uniterion (koşul sayısı sorulmus) 
+CEVAP : 16
+
+
+Data-driven Tool - veri gudumlu test yaklasimi 
+Veri güdümlü test yaklaşımı, test girdilerini ve beklenen sonuçları, genellikle bir elektronik tablo şeklinde ayırır ve giriş verilerini okuyabilen ve aynı test betiğini farklı verilerle çalıştırabilen daha genel  bir test betiği kullanır. Betik dilini bilmeyen test uzmanları daha sonra bu önceden tanımlanmış betikler için yeni test verileri yaratabilir
+
+
+SORU : Bir tesise araç aldınız.Bu ilk aşamada nasıl kullanılır?
+:x: kurum maliyetine bakılmaksızın sadece teknik özellikleri test edilerek yapılır.
+:x: Sadece araç temin edenlerin katıldığı bir pilot proje yapılır.
+:x: Bütün tesisteki tüm kişilerle yapılır.
+:white_check_mark: .......... dikkate alınarak bir pilot proje yapılır.
+
+
+SORU : Mobil testing web testlerden daha zor ve karmaşıktır. Bu aşağıdakilerden hangisi ile en iyi açıklanabilir?
+:white_check_mark:yazılım testi projenin bağlamına ve koşuluna göre değişiklik gösterir.
+:x: Hiçbir şey %100 test edilemez
+:x: ardışık hatalarla ilgili bir şık
+:x: Hata kümelenmesi
+
+
+SORU : Test araçları ile ilgili -Kuruma araç alınacak, ne yapılmalı?
+CEVAP : İşe alındıktan sonra oryantasyon verilen eğitim
+
+:star2: Her yazılım geliştirme aktivitesine(aşaması) karşılık(denk) gelen bir test aktivitesi(aşaması) vardır.   
+
+SORU :Statik analiz araçlarında bulunmaz?
+CEVAP : Yavaş tepki süresi 
+
+SORU : Statik analiz araçlarında bulunmaz?
+CEVAP : Düşük MTBF( Arıza arası ortalama zaman)   
+
+SORU :Deneyime dayalı testlerle ile ilgili hangisi doğrudur?
+CEVAP : Deneyime dayalı testler beyaz ve kara kutu testlerini destekler(tamamlayicidir)  
+
+SORU : Hangisi testin amaçlarından biri değildir ? 
+CEVAP : Hata kalmadığını ispatlamak 
+
+SORU : Testerın paydaşlara karşı yapacağı davranışlardan hangisinin sonucu negatif etkiye sahip olur? 
+CEVAP : Bulduğu hatayı paydaşlara çok detaylı bir şekilde açıklar ve raporlar.(sadece tarafsız ve gercekci olmalı)
+
+
+SORU : Test yürütme ve olay raporlama konusunda uzman, test temelleri hakkında bilgi sahibi, test araçlarını kullanan ve test nesnesini anlayan bir ekip üyesi ? 
+CEVAP : Test Uzmanı
+
+
+SORU : Equivalence partitioning nedir?
+CEVAP : Benzer davranışlar gösteren girdi ve çıktıların gruplandırılması
+
+SORU : V modeli
+CEVAP : 
+AC  -> business req.
+System  -> software req.
+Entegrasyon  -> high design
+Component -> low design 
+
+
+SORU : V modelinde kabul testinde hangi dökümanlar kullanılır?
+CEVAP :  Kabul testi- İş gereksinimleri
+
+
+SORU : Denklik paylarına ayırmanın tanımı 
+CEVAP : Denklik paylarına ayırma, verileri paylara (denklik sınıfları) ayırır; yazılım tarafından bir payın tüm üyelerinin benzer şekilde ele alınması beklenir. Hem geçerli hem de geçersiz değerler için denklik payları vardır.
+• Geçerli değerler, birim veya sistem kapsamına giren, yazılım tarafından kabul edilmesi beklenen değerlerdir. Geçerli değerler içeren bir denklik payına “geçerli denklik payı” denir.
+• Geçersiz değerler, birim veya sistem kapsamı dışında olan, yazılım tarafından reddedilmesi beklenen değerlerdir. Geçersiz değerler içeren bir denklik payına “geçersiz denklik payı” denir.
+• Girdiler, çıktılar, dâhili değerler, zamana bağlı değerler (örneğin, bir olaydan önce veya sonra) dâhil test nesnesiyle ilgili herhangi bir veri öğesi için ve arayüz parametreleri için (ör. entegrasyon testleri sırasında test edilen entegre birimler) denklik payları belirlenebilir.
+
+SORU :  . V modelinin test seviyeleri 
+CEVAP : birim, entegrasyon sistem ve kabul testi
+
+
+SORU : Dinamik analiz sorusu … 
+CEVAP: BELLEK SIZINTILARI
+
+SORU : Denklik sınıflarını ayırma hangi test tekniklerindendir? 
+CEVAP: Kara kutu test teknikleri
+
+
+
+SORU : Test tasarımının tanımı nedir?
+CEVAP: Test senaryolarını elde etmek ve/veya seçmek için kullanılan prosedür/yordam
+
+SORU : Hangisi test mühendisinin tipik görevlerinden değildir?
+:white_check_mark: Test verisi hazırlar
+:white_check_mark: Spesifikasyonları oluşturur
+:x:Test yaklaşımını belirler (test yoneticisi)
+:white_check_mark: Test planı gözden geçirir 
+
+SORU : Kara kutu test tekniklerinden bir soru.. Hangisi doğru değildir?
+CEVAP : 
+Sınır değer analizi (doğru)
+Denklik paylarına ayırma (doğru)
+Karar tablosu  (doğru)
+Durum geçiş (doğru)
+
+
+SORU : Test koşumu hangi faaliyetlerden önce hangi faaliyetlerden sonra yapılır ? 
+CEVAP: Planlamadan sonra raporlamadan once
+
+SORU : Hangisinde entry-exit criteria uygulanır?
+:x: Technical
+:x: Walkthrough
+:white_check_mark:  Formal  
+
+
+SORU : Hangi ifade testing in rolunu en iyi sekilde tanımlar
+CEVAP : Testing, kaliteyi degerlendirmek icin kullanılabilir
+
+
+SORU : Test uyarlamada en sık kullanılan arac
+CEVAP : Test verilerini hazırlama aracları
+
+SORU : hangileri test analiz ve tasarım cıktılarıdır?
+        I. test plan 
+        II. test kosullarının belirlenmesi ve onceliklendirilmesi
+        III.test verilerinin belirlenmesi
+        IV. test ozeti raporu 
+
+CEVAP :  II ve III
+
+SORU : yuk altındaki cevap suresi
+CEVAP : Performans Test
+
+SORU : Asagidakileren hangisi hata tahminleme yaparken metodik bir yaklasim?
+CEVAP :  Olasi hatalarin listesini olusturmak
+
+SORU : Bir mobil uygulama sonradan eklenen kod parçacığından dolayı hata veriyor. raporda sebebi ne olarak verilir?
+CEVAP : kök neden
+
+SORU : Şıklarda ayrı ayrı Error,defect ve failure ile ilgili tanımları verilmişti hangisi doğrudur? ***
+a)Ariza(failure) insan hatasindan kaynakli yazilimdaki kusurdur.
+b)Error(hata) insan hatasindan kaynakli yazilim kodunu calistirdgimizda ortaya cikan kusurdur.
+c)Hata(defect) insan kaynakli hatanin yazilim kodunda bulunan kusurdur
+d)bug insan hatasından kaynaklı kusurdur gibi
+
+
+SORU : Bu tür test stratejileri, temel olarak test ekibinin dışında veya kurum dışından paydaşların, alan
+uzmanlarının veya teknoloji uzmanlarının tavsiyesi, rehberliği veya talimatları ile yönlendirilir.
+Yukarıdaki tanım hangi test stratejisine aittir? f
+A) Analytical
+B) Model-Based
+C) Methodical
+D) Directed(YÖNLENDİRME) ***
+
+
+SORU : Gözden geçirnıede bulunan hatalar: kimin düzeltmesi beklenir?
+CEVAP: Author (yazar)
+
+SORU :Otomasyon yaptığınız testinde testin bir zaman sonra hata bulmadığım tespit ediyorsunuz.
+Bu hangi test prensibi İle olcersiniz ? 
+CEVAP : antibiyotik direnci
+
+
+
