@@ -36,6 +36,7 @@ public class DigitPowers {
 
          1⁴ + 2⁴ + 3⁴ + 4⁴ = 1 + 16 + 81 + 256
 
+
          result  354 olmalı
 
       */
