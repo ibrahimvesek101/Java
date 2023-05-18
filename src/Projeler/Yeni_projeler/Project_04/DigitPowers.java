@@ -24,6 +24,7 @@ public class DigitPowers {
     /*
 
 
+
          Verilen methodun ismi power4
          Parametresi int
          Return tipi de int dir
