@@ -1,6 +1,5 @@
 import javax.swing.*;
 
-
 public class AnaMenu {
     private JPanel menu;
     private JButton cikisButton;
