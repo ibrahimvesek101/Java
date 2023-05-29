@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import static java.util.Arrays.asList;
 import static java.util.Arrays.sort;
 
-
 public class Anlik {
     static Scanner input = new Scanner(System.in);
 
