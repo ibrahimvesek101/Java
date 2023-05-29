@@ -14,12 +14,10 @@ public class Anlik {
 
     public static void main(String[] args) {
 
-        ArrayList<Integer> arrList = new ArrayList<>(Arrays.asList(12,12,21,21,34));
+        ArrayList<Integer> arrList = new ArrayList<>(Arrays.asList(12, 12, 21, 21, 34));
 
         Set<Integer> set = new HashSet<>(arrList);
         System.out.println("set = " + set);
 
     }
-
-
 }
