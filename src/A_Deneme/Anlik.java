@@ -18,5 +18,6 @@ public class Anlik {
         Set<Integer> set = new HashSet<>(arrList);
         System.out.println("set = " + set);
 
+
     }
 }
