@@ -34,7 +34,6 @@ public enum AyAdıKontrolEnum {
                 System.out.println("Girdiğiniz ay var");
             }
         } catch (Exception e) {
-
             System.out.println("Girdiğiniz ay yok");
             enumListVarlıkDene();
         }
