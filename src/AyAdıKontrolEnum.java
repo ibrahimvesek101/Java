@@ -20,6 +20,7 @@ public enum AyAdıKontrolEnum {
     public static void main(String[] args) {
 
         enumListVarlıkDene();
+
     }
     private static void enumListVarlıkDene() {
         try {
