@@ -5,6 +5,7 @@ public class Int_Kontrol {
 
     public static void main(String[] args) {
 
+
         // Method nasıl çalışıyor diye switch create ettim...
         //main olmasa da olur... sadece intSayiKontrol() methodunu kullanınız..
 

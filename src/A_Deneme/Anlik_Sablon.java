@@ -3,6 +3,7 @@ package A_Deneme;
 import java.util.Scanner;
 
 public class Anlik_Sablon {
+
     public static void main(String[] args) {
 
         /*
@@ -16,7 +17,7 @@ public class Anlik_Sablon {
         String metin = input.nextLine();
 
          */
-
+        System.out.println("Bismillah...");
 
     }
 
