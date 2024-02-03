@@ -6,6 +6,7 @@ public class Anlik_Sablon {
 
     public static void main(String[] args) {
 
+
         /*
 
         Scanner input = new Scanner(System.in);
@@ -17,8 +18,8 @@ public class Anlik_Sablon {
         String metin = input.nextLine();
 
          */
-        System.out.println("Bismillah...");
+        System.out.println("Bismillah");
+        System.out.println("her hayrın başıdır...");
 
     }
-
 }
