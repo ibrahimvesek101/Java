@@ -1,5 +1,6 @@
 package Projeler.Yeni_projeler.Project_05.Laptop;
 
+
 import org.junit.Assert;
 import org.junit.Test;
 
