@@ -16,7 +16,6 @@ public class Urunler {
                 "\n4-) Nar");
     }
 
-
     public static void urunFiyatlari() {
 
 
